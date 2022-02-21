@@ -309,10 +309,9 @@ footer {
     text-align: center;
     padding: 0 20px;
 }
-}
+
 #photos {
     column-count: 3;
-}
 }
 
 /* For small screen sizes 800px and down */
