@@ -187,8 +187,11 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* event times */
+
 #times {
-    background-image: url('../images/dublin-city.webp');
+    background-image: url('../images/times-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,9 +211,11 @@ hr {
     box-sizing: border-box;
 }
 
-#times h2{
-    color: #fafafa;   
+#times h2 {
+    color: #fafafa;
 }
+
+/* footer */
 
 footer {
     height: 150px;
@@ -231,6 +236,8 @@ footer {
     color: #3a3a3a;
 }
 
+/* gallery */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -242,6 +249,9 @@ footer {
     width: 100%;
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -266,6 +276,7 @@ footer {
         float: left;
         padding: 0;
     }
+
     #times > div {
         width: 100%;
         clear: both;
@@ -277,6 +288,8 @@ footer {
         display: none;
     }
 }
+
+/* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
     #menu {
@@ -286,37 +299,28 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-}
-#cover-text { 
-    left:0;
-}
-#club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-}
 
-.left-about-heading, .right-about-heading {
-    width: inherit;
-}
+    #cover-text {
+        left: 0;
+    }
 
-.left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-}
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-.left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
-}
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
 
-#photos {
-    column-count: 3;
-}
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
 
-/* For small screen sizes 800px and down */
-@media screen and (max-width: 800px) {
-#photos {
-    column-count: 2;
-}
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
 }
